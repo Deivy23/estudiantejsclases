@@ -6,5 +6,5 @@ prompt.start();
 
 prompt.get(['nombreUsuario'], function (err, result) {
 
-    console.log(' Hola ' + result.nombreUsuario);
+console.log('El nombre del usuario es: ' + result.nombreUsuario);
 });
