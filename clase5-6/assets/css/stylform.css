@@ -1,0 +1,100 @@
+*{ 
+    font-family: 'Time New Roman';
+    font-weight: 100;
+
+}
+body{
+    background-color: #000;
+}
+
+.flex-container{
+
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: #222;
+    margin: 100px 50px;
+    padding: 30px ;
+    border: 20px solid #000;
+    outline: 2px solid #11f;
+    
+}
+.titulo{
+    color: #01f;
+    
+
+}
+#my-form{
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #11f;
+    background-color: transparent;
+    color: #fff;
+}
+
+input, textarea:focus{
+    background: linear-gradient(to bottom, transparent, #111);
+    outline: none;
+    border-bottom: 3px solid #11f;
+}
+
+/*textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #11f;
+    background-color: transparent;
+    color: #fff;
+}
+textarea:focus{
+    background: linear-gradient(to bottom, transparent, #111);
+    outline: none;
+    border-bottom: 3px solid #11f;
+
+}*/
+
+#my-form{
+    min-height: 150px;
+    resize: none;
+}
+
+#my-form button[type="submit"]{
+    background-color: #01f;
+    border-bottom: none;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+#my-form button[type="submit"]:hover{
+    background-color: #04f;
+    border-bottom: none;
+    padding: 12px;
+}
+#my-form button[type="submit"]:focus{
+    background-color: #0af;  
+}
+#my-form button[type="submit"]:active{
+    background: linear-gradient(to bottom, #06f, #005);
+} 
+
+#caja{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #01f;
+}
+
+
