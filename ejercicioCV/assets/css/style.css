@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+p {
+    margin: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 8px;
+}
+
+h1,
+h3 {
+    text-transform: uppercase;
+}
+
+h3 {
+    letter-spacing: 4px;
+    position: relative;
+}
+
+h3::before {
+    content: '';
+    width: 60px;
+    height: 5px;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    bottom: -10px;
+}
+
+article {
+    min-height: 150px;
+    margin: 8px auto;
+}
+
+.contenedor {
+    display: flex;
+    width: 595px;
+    min-height: 842px;
+    margin: 0 auto;
+    background-color: #fff;
+    outline: solid #aaa 5px;
+}
+
+.section1 {
+    width: 35%;
+}
+
+.section2 {
+    width: 65%;
+    background-color: #bbb;
+}
+
+.section1,
+.section2 {
+    padding: 25px;
+}
+
+.avatar {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.listado-contacto {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.parrafo-profesion {
+    font-size: 18px;
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+
+}
+
+.icono-lista {
+    margin-right: 5px;
+    margin-left: -20px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+/*.resalto:hover{
+    height: 500px;
+    width: 200px;
+    transition: all 0.8;
+   
+}
