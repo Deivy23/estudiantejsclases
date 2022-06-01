@@ -1,6 +1,6 @@
 
 const miFormulario = document.querySelector("#my-form");
-
+miFormulario.focus();
 
 function eventoSubmit(evento) {
     evento.preventDefault()
@@ -18,6 +18,7 @@ function eventoSubmit(evento) {
 
     elementoCaja.style.height = altura + 'px'
     miFormulario.reset()
+    miFormulario.focus()
 }
 
 miFormulario.addEventListener("submit", eventoSubmit)
